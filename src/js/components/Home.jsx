@@ -13,7 +13,7 @@ const Home = () => {
     };
 
     
-    const eliminarTarea = (id) => {
+    const eliminarTarea = (id) => { 
         setTareas(tareas.filter(tarea => tarea.id !== id)); 
     };
 
